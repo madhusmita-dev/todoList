@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/madhusmita-dev/todo-list/static/css/main.d17555df.css",
+    "main.js": "/madhusmita-dev/todo-list/static/js/main.122c0001.js",
+    "static/js/453.aec2852f.chunk.js": "/madhusmita-dev/todo-list/static/js/453.aec2852f.chunk.js",
+    "index.html": "/madhusmita-dev/todo-list/index.html",
+    "main.d17555df.css.map": "/madhusmita-dev/todo-list/static/css/main.d17555df.css.map",
+    "main.122c0001.js.map": "/madhusmita-dev/todo-list/static/js/main.122c0001.js.map",
+    "453.aec2852f.chunk.js.map": "/madhusmita-dev/todo-list/static/js/453.aec2852f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d17555df.css",
+    "static/js/main.122c0001.js"
+  ]
+}
