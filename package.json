@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "0.1.0",
-  "homepage": "https://madhusmita-dev.github.io/todo-list",
+  "homepage": "https://madhusmita-dev.github.io/todo-list/",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
