@@ -32,7 +32,187 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Container */
+.task-container {
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  height: 100vh;
+}
+
+/* Header */
+.task-header {
+  display: flex;
+  align-items: center;
+  background: #0056a6;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+}
+
+.task-header h2 {
+  margin: 0;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Form */
+.task-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.task-form input,
+.task-form textarea {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  outline: none;
+}
+
+.task-form input:focus,
+.task-form textarea:focus {
+  border-color: #0056a6;
+}
+
+/* Buttons */
+.task-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cancel-btn {
+  border: 1px solid #0056a6;
+  background: white;
+  color: #0056a6;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-btn {
+  border: none;
+  background: #0056a6;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cancel-btn:hover {
+  background: #f2f2f2;
+}
+
+.add-btn:hover {
+  background: #004080;
+}
+
+.section-header {
+  padding: 12px;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+  background: #f8f8f8;
+  border-radius: 6px;
+}
+
+.task-list {
+  padding: 10px;
+}
+
+/* Task item */
+.task-item {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.arrow {
+  float: right;
+}
+.task-card {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  border-top: 1px solid #eee;
+}
+
+.avatar {
+  background: #f0f6ff;
+  border: 1px solid #004aad;
+  color: #004aad;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-weight: bold;
+}
+
+.task-info {
+  flex: 1;
+  text-align: left;
+}
+.task-info h4 {
+  margin: 0;
+  color: #004aad;
+}
+
+.task-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #555;
+}
+.task-info small {
+  color: #777;
+}
+
+.task-status {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #444;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  display: inline-block;
+}
+.dot.in-progress {
+  background: orange;
+}
+
+.dot.pending {
+  background: red;
+}
+
+.dot.completed {
+  background: green;
+}
+
+.arrow {
+  font-size: 12px;
+  margin-left: auto;
 }
